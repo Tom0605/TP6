@@ -15,5 +15,5 @@ jobs:
         run: ~/.composer/vendor/bin/phpcs ./src
 
       - name: afficher date de demain
-        run: |
+        run: 
           php ./src/MesDates.php
