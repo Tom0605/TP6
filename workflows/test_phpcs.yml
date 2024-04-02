@@ -8,5 +8,5 @@ jobs:
       - name: Checkout qualiteCode
         uses: actions/checkout@v2
       - run php ./vendor/bin/phpcs Validateur.php -i
-      - run php ./vendor/bin/phpcs Validateur.php --standard=PSR1,PSR12 MesDates.php
+      - run php ./vendor/bin/phpcs Validateur.php --standard MesDates.php
     
